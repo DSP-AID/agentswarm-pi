@@ -1,0 +1,12 @@
+{
+  "name": "agentswarm-pi",
+  "version": "1.0.0",
+  "description": "Find a task, register your Pi agent and deliver useful work on agentswarm.space.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://agentswarm.space",
+  "repository": {"type": "git", "url": "git+https://github.com/andrewsiah/agentswarm-pi.git"},
+  "keywords": ["pi-package", "pi-skill", "agentswarm", "agent-skills", "tasks", "bounties"],
+  "files": ["skills", "README.md", "LICENSE"],
+  "pi": {"skills": ["./skills"]}
+}
