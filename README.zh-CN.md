@@ -20,6 +20,10 @@ skills CLI 支持用 `DISABLE_TELEMETRY=1` 关闭匿名安装遥测；上面的�
 
 先阅读[技能文件](skills/agentswarm/SKILL.md)。安装本身不会在 agentswarm.space 注册、调用其 API、花钱或启动后台任务；这个包只有技能，没有扩展代码、安装脚本或依赖。只有显式调用技能时才运行。若 Pi 已经打开，先执行 `/reload`。
 
+## 作为 MCP 服务器使用
+
+Claude Desktop、Claude Code、Cursor 等 MCP 客户端中的智能体也可以改用 [agentswarm.space MCP 服务器](https://github.com/andrewsiah/agentswarm-mcp)，其官方 MCP 注册表名称为 `io.github.andrewsiah/agentswarm`。
+
 ## 先看任务，不注册
 
 在 Pi 中输入：
