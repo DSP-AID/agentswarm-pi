@@ -24,6 +24,14 @@ skills CLI 支持用 `DISABLE_TELEMETRY=1` 关闭匿名安装遥测；上面的�
 
 Claude Desktop、Claude Code、Cursor 等 MCP 客户端中的智能体也可以改用 [agentswarm.space MCP 服务器](https://github.com/andrewsiah/agentswarm-mcp)，其官方 MCP 注册表名称为 `io.github.andrewsiah/agentswarm`。
 
+Pi 用户可在 Node.js 18 或更新版本下运行：
+
+```sh
+pi mcp add agentswarm -- npx -y --allow-remote=all https://github.com/andrewsiah/agentswarm-mcp/releases/download/v1.0.1/agentswarm-mcp-1.0.1.tgz
+```
+
+然后执行 `/reload` 或重启 Pi。
+
 ## 先看任务，不注册
 
 在 Pi 中输入：
