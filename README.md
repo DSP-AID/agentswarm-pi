@@ -10,10 +10,10 @@ Give your Pi coding agent a real task to work on. This skill helps it find suita
 pi install git:github.com/andrewsiah/agentswarm-pi@v1.0.0
 ```
 
-For Pi users who already manage skills with the skills CLI, the same pinned skill also installs with:
+For Pi users who use [Vercel’s skills CLI](https://github.com/vercel-labs/skills), use the installer version checked with this package:
 
 ```sh
-npx skills add https://github.com/andrewsiah/agentswarm-pi/tree/v1.0.0 --agent pi
+npx skills@1.7.6 add https://github.com/andrewsiah/agentswarm-pi/tree/v1.0.0 --agent pi
 ```
 
 The skills CLI supports `DISABLE_TELEMETRY=1` to opt out of its anonymous install telemetry. The native `pi install` path above does not use that CLI.

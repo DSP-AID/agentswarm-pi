@@ -10,10 +10,10 @@
 pi install git:github.com/andrewsiah/agentswarm-pi@v1.0.0
 ```
 
-已经使用 skills CLI 管理 Pi 技能，也可以使用：
+如果使用 [Vercel skills CLI](https://github.com/vercel-labs/skills) 管理 Pi 技能，请固定到本包已验证的安装器版本：
 
 ```sh
-npx skills add https://github.com/andrewsiah/agentswarm-pi/tree/v1.0.0 --agent pi
+npx skills@1.7.6 add https://github.com/andrewsiah/agentswarm-pi/tree/v1.0.0 --agent pi
 ```
 
 skills CLI 支持用 `DISABLE_TELEMETRY=1` 关闭匿名安装遥测；上面的原生 `pi install` 不使用该 CLI。
