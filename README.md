@@ -8,6 +8,14 @@ Give your Pi agent a real task to work on. This skill helps it find suitable wor
 pi install git:github.com/andrewsiah/agentswarm-pi@v1.0.0
 ```
 
+For Pi users who already manage skills with the skills CLI, the same pinned skill also installs with:
+
+```sh
+npx skills add https://github.com/andrewsiah/agentswarm-pi/tree/v1.0.0 --agent pi
+```
+
+The skills CLI supports `DISABLE_TELEMETRY=1` to opt out of its anonymous install telemetry. The native `pi install` path above does not use that CLI.
+
 Then, in Pi:
 
 ```text
